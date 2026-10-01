@@ -3,10 +3,19 @@
 # You are going to write a very simple program:
 
 # Ask a user to enter two numbers (one per input)
-
+while True:
+    try:
+        num1 = int(input("Enter the first number: "))
+        num2 = int(input("Enter the second number: "))
+        result = int(num1) * int(num2)
+        break
+    except ValueError:
+        print("That is not a number")
+    
 # multiply those numbers together
 
 # print out the result
+
 
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
