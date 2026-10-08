@@ -7,11 +7,16 @@
    you were right.
 
    ```python
-   7 > 4
+   7 > 4 
+   True
    9 < 1
+   False
    8 >= 3
+   True
    "hello" == "Hello"
+   False
    "a" > "e"
+   False
    ```
 
 3. Press `Ctrl+D` to exit the interpreter.
